@@ -1,0 +1,11 @@
+[submodule "auth-backend"]
+	path = auth-backend
+	url = git@github.com:haevnEU/worksuite-auth-backend.git
+
+[submodule "service-frontend"]
+	path = service-frontend
+	url = git@github.com:haevnEU/worksuite-frontend.git
+
+[submodule "service-backend"]
+	path = service-backend
+	url = git@github.com:haevnEU/worksuite-backend.git

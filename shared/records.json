@@ -1,0 +1,1428 @@
+{
+    "sup_installation_type": [
+        {
+            "id": 0,
+            "key": "deinstallation",
+            "descriptionGer": "",
+            "descriptionEng": "Deinstallation of a device"
+        },
+        {
+            "id": 1,
+            "key": "installation",
+            "descriptionGer": "",
+            "descriptionEng": "Installation of a device"
+        },
+        {
+            "id": 2,
+            "key": "exchange",
+            "descriptionGer": "",
+            "descriptionEng": "Exchange of a device"
+        },
+        {
+            "id": 3,
+            "key": "free-infrastructure",
+            "descriptionGer": "",
+            "descriptionEng": "Free installation of infrastructure components"
+        },
+        {
+            "id": 4,
+            "key": "upgrade",
+            "descriptionGer": "",
+            "descriptionEng": "Upgrade the infrastructure"
+        },
+        {
+            "id": 5,
+            "key": "fault-clearance",
+            "descriptionGer": "",
+            "descriptionEng": "Fault clearance of components"
+        },
+        {
+            "id": 6,
+            "key": "transformationMmeToImsys",
+            "descriptionGer": "",
+            "descriptionEng": "Transform a mme to imsys"
+        },
+        {
+            "id": 50,
+            "key": "fc-casm",
+            "descriptionGer": "",
+            "descriptionEng": "Fault clearance job (SM): CASM upgrade"
+        },
+        {
+            "id": 51,
+            "key": "fc-clamp-cover",
+            "descriptionGer": "",
+            "descriptionEng": "Fault clearance job (SM): clamp cover"
+        },
+        {
+            "id": 52,
+            "key": "fc-crypto-reset",
+            "descriptionGer": "",
+            "descriptionEng": "Fault clearance job (SM): crypto reset"
+        },
+        {
+            "id": 53,
+            "key": "fc-radio",
+            "descriptionGer": "",
+            "descriptionEng": "Fault clearance job (SM):radio optimization"
+        },
+        {
+            "id": 54,
+            "key": "fc-verification",
+            "descriptionGer": "",
+            "descriptionEng": "Fault clearance job (SM): verification"
+        },
+        {
+            "id": 55,
+            "key": "fc-other",
+            "descriptionGer": "",
+            "descriptionEng": "Fault clearance job (SM): other"
+        }
+    ],
+    "sup_installation_access_level": [
+        {
+            "id": -1,
+            "key": "revoke",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 0,
+            "key": "no access",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 1,
+            "key": "access",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        }
+    ],
+    "sup_installation_status": [
+        {
+            "id": -1,
+            "key": "not_started",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 1,
+            "key": "started",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 10,
+            "key": "seal_ok",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 11,
+            "key": "seal_damaged",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 15,
+            "key": "removing_meter",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 16,
+            "key": "removed_meter",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 20,
+            "key": "fuse_on",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 21,
+            "key": "fuse_off",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 30,
+            "key": "scanned_geolocation",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 40,
+            "key": "external_antenna",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 41,
+            "key": "lte_module",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 42,
+            "key": "scgw",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 43,
+            "key": "lte_antenna",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 44,
+            "key": "smgw",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 45,
+            "key": "udb",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 50,
+            "key": "exchange_okk",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 53,
+            "key": "tariff_module",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 55,
+            "key": "voltage_measurement",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 57,
+            "key": "casm",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 60,
+            "key": "amp",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 65,
+            "key": "turn_on_repeater",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 70,
+            "key": "sm",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 71,
+            "key": "transformation_mme_to_imsys",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 100,
+            "key": "finished",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        }
+    ],
+    "sup_installation_mounting_variant": [
+        {
+            "id": 0,
+            "key": "glue",
+            "descriptionGer": "",
+            "descriptionEng": "device is glued"
+        },
+        {
+            "id": 1,
+            "key": "rivet",
+            "descriptionGer": "",
+            "descriptionEng": "device is riveted"
+        },
+        {
+            "id": 2,
+            "key": "screw",
+            "descriptionGer": "",
+            "descriptionEng": "device is screwed"
+        },
+        {
+            "id": 3,
+            "key": "strapClip",
+            "descriptionGer": "",
+            "descriptionEng": "device is mounted with a strap clip"
+        }
+    ],
+    "sup_installation_cable_length": [
+        {
+            "id": 0,
+            "key": "short",
+            "descriptionGer": "",
+            "descriptionEng": "cable length is short"
+        },
+        {
+            "id": 1,
+            "key": "middle",
+            "descriptionGer": "",
+            "descriptionEng": "cable length is middle"
+        },
+        {
+            "id": 2,
+            "key": "long",
+            "descriptionGer": "",
+            "descriptionEng": "cable length is long"
+        }
+    ],
+    "sup_installation_power_supply": [
+        {
+            "id": 0,
+            "key": "Piercing clamp",
+            "descriptionGer": "",
+            "descriptionEng": "Piercing clamp"
+        },
+        {
+            "id": 1,
+            "key": "Piggyback clamp",
+            "descriptionGer": "",
+            "descriptionEng": "Piggyback clamp"
+        },
+        {
+            "id": 2,
+            "key": "Socket",
+            "descriptionGer": "",
+            "descriptionEng": "Socket"
+        },
+        {
+            "id": 3,
+            "key": "screwTerminal",
+            "descriptionGer": "",
+            "descriptionEng": "Screw Terminal"
+        }
+    ],
+    "sup_device_type": [
+        {
+            "id": 0,
+            "key": "repeater",
+            "descriptionGer": "",
+            "descriptionEng": "Repeater"
+        },
+        {
+            "id": 1,
+            "key": "sm",
+            "descriptionGer": "",
+            "descriptionEng": "Smart Meter"
+        },
+        {
+            "id": 2,
+            "key": "casm",
+            "descriptionGer": "",
+            "descriptionEng": "Connection Smart Meter"
+        },
+        {
+            "id": 3,
+            "key": "smgw",
+            "descriptionGer": "",
+            "descriptionEng": "Smart Meter Gateway"
+        },
+        {
+            "id": 4,
+            "key": "scgw",
+            "descriptionGer": "",
+            "descriptionEng": "Smart City Gateway"
+        },
+        {
+            "id": 5,
+            "key": "udb",
+            "descriptionGer": "",
+            "descriptionEng": "Under Distribution Box"
+        },
+        {
+            "id": 6,
+            "key": "ltem",
+            "descriptionGer": "",
+            "descriptionEng": "LTE Module"
+        },
+        {
+            "id": 7,
+            "key": "ltea",
+            "descriptionGer": "",
+            "descriptionEng": "LTE Antenna"
+        },
+        {
+            "id": 8,
+            "key": "tm",
+            "descriptionGer": "",
+            "descriptionEng": "Tariff Module"
+        },
+        {
+            "id": 9,
+            "key": "smregister-1.8.0",
+            "descriptionGer": "",
+            "descriptionEng": "Smart Meter Register Single Tariff 1.8.0"
+        },
+        {
+            "id": 10,
+            "key": "hg",
+            "descriptionGer": "",
+            "descriptionEng": "SCGW-HG"
+        },
+        {
+            "id": 11,
+            "key": "hr",
+            "descriptionGer": "",
+            "descriptionEng": "SCGW-HR"
+        },
+        {
+            "id": 12,
+            "key": "smregister-1.8.1",
+            "descriptionGer": "",
+            "descriptionEng": "Smart Meter Register Double Tariff 1.8.1"
+        },
+        {
+            "id": 13,
+            "key": "smregister-1.8.2",
+            "descriptionGer": "",
+            "descriptionEng": "Smart Meter Register Double Tariff 1.8.2"
+        },
+        {
+            "id": 14,
+            "key": "smregister-2.8.0",
+            "descriptionGer": "",
+            "descriptionEng": "Smart Meter Register Deliver Tariff 2.8.0"
+        },
+        {
+            "id": 15,
+            "key": "smregister-2.8.1",
+            "descriptionGer": "",
+            "descriptionEng": "Smart Meter Register Deliver Tariff 2.8.1"
+        },
+        {
+            "id": 16,
+            "key": "smregister-2.8.2",
+            "descriptionGer": "",
+            "descriptionEng": "Smart Meter Register Deliver Tariff 2.8.2"
+        },
+        {
+            "id": 20,
+            "key": "hfsb",
+            "descriptionGer": "",
+            "descriptionEng": "Control Box"
+        },
+        {
+            "id": 21,
+            "key": "hfse",
+            "descriptionGer": "",
+            "descriptionEng": "Submeter Unit"
+        }
+    ],
+    "sup_device_status": [
+        {
+            "id": -1,
+            "key": "unknown",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 0,
+            "key": "registered",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 10,
+            "key": "installed",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 20,
+            "key": "deinstalled",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        },
+        {
+            "id": 100,
+            "key": "working",
+            "descriptionGer": "",
+            "descriptionEng": ""
+        }
+    ],
+    "sup_sm_type": [
+        {
+            "id": 0,
+            "key": "1-Tarif-Drehstromzähler",
+            "descriptionEng": "",
+            "descriptionGer": "1-Tarif-Drehstromzähler"
+        },
+        {
+            "id": 1,
+            "key": "1-Tarif elektr. Drehstromzähler",
+            "descriptionEng": "",
+            "descriptionGer": "1-Tarif elektr. Drehstromzähler"
+        },
+        {
+            "id": 2,
+            "key": "1-Tarif-Messwandler-Drehstromzähler",
+            "descriptionEng": "",
+            "descriptionGer": "1-Tarif-Messwandler-Drehstromzähler"
+        },
+        {
+            "id": 3,
+            "key": "1-Tarif-Wechselstromzähler",
+            "descriptionEng": "",
+            "descriptionGer": "1-Tarif-Wechselstromzähler"
+        },
+        {
+            "id": 4,
+            "key": "1-Tarif-Drehstrom-Zweirichtungszähler",
+            "descriptionEng": "",
+            "descriptionGer": "1-Tarif-Drehstrom-Zweirichtungszähler"
+        },
+        {
+            "id": 5,
+            "key": "1-Tarif elektronischer Messwandler-Drehstromzähler",
+            "descriptionEng": "",
+            "descriptionGer": "1-Tarif elektronischer Messwandler-Drehstromzähler"
+        },
+        {
+            "id": 6,
+            "key": "Doppeltarif-Drehstromzähler",
+            "descriptionEng": "",
+            "descriptionGer": "Doppeltarif-Drehstromzähler"
+        },
+        {
+            "id": 7,
+            "key": "elektronischer Doppeltarif-Drehstromzähler",
+            "descriptionEng": "",
+            "descriptionGer": "elektronischer Doppeltarif-Drehstromzähler"
+        },
+        {
+            "id": 8,
+            "key": "Doppeltarif-Messwandler-Drehstromzähler",
+            "descriptionEng": "",
+            "descriptionGer": "Doppeltarif-Messwandler-Drehstromzähler"
+        },
+        {
+            "id": 9,
+            "key": "elektronischer Doppeltarif-Messwandler-Drehstromzähler",
+            "descriptionEng": "",
+            "descriptionGer": "elektronischer Doppeltarif-Messwandler-Drehstromzähler"
+        },
+        {
+            "id": 10,
+            "key": "Doppeltarif-Wechselstromzähler",
+            "descriptionEng": "",
+            "descriptionGer": "Doppeltarif-Wechselstromzähler"
+        },
+        {
+            "id": 11,
+            "key": "Zweirichtungszähler",
+            "descriptionEng": "",
+            "descriptionGer": "Zweirichtungszähler"
+        },
+        {
+            "id": 12,
+            "key": "Lieferzähler",
+            "descriptionEng": "",
+            "descriptionGer": "Lieferzähler"
+        },
+        {
+            "id": 13,
+            "key": "2-Richtung, Doppeltarif Bezug, Eintarif Lieferung",
+            "descriptionEng": "",
+            "descriptionGer": "2-Richtung, Doppeltarif Bezug, Eintarif Lieferung"
+        },
+        {
+            "id": 14,
+            "key": "2-Richtung, Doppeltarif Bezug, Doppeltarif Lieferung",
+            "descriptionEng": "",
+            "descriptionGer": "2-Richtung, Doppeltarif Bezug, Doppeltarif Lieferung"
+        }
+    ],
+    "sup_job_data_correction_type": [
+        {
+            "id": 1,
+            "key": "serialnumber_uninstallation",
+            "descriptionEng": "",
+            "descriptionGer": "Zählernummer (Ausbau)"
+        },
+        {
+            "id": 2,
+            "key": "serialnumber_installation",
+            "descriptionEng": "",
+            "descriptionGer": "Zählernummer (Einbau)"
+        },
+        {
+            "id": 3,
+            "key": "measurement_uninstallation",
+            "descriptionEng": "",
+            "descriptionGer": "Zählerstand (Ausbau)"
+        },
+        {
+            "id": 4,
+            "key": "measurement_installation",
+            "descriptionEng": "",
+            "descriptionGer": "Zählerstand (Einbau)"
+        }
+    ],
+    "sup_geodata_info_type": [
+        {
+            "id": 0,
+            "key": "unknown",
+            "descriptionGer": "",
+            "derscription_en": "Data determining is unknown"
+        },
+        {
+            "id": 1,
+            "key": "mApp",
+            "descriptionGer": "",
+            "derscription_en": "Determine geodata with mobile App"
+        },
+        {
+            "id": 2,
+            "key": "gui",
+            "descriptionGer": "",
+            "derscription_en": "Set geodata over GUI"
+        },
+        {
+            "id": 3,
+            "key": "importer",
+            "descriptionGer": "",
+            "derscription_en": "Set geodata during import"
+        },
+        {
+            "id": 10,
+            "key": "sTT",
+            "descriptionGer": "",
+            "derscription_en": "Service TomTom"
+        },
+        {
+            "id": 11,
+            "key": "sOSM",
+            "descriptionGer": "",
+            "derscription_en": "Service OpenStreetMap"
+        },
+        {
+            "id": 12,
+            "key": "sMQ",
+            "descriptionGer": "",
+            "derscription_en": "Service MapQuest"
+        },
+        {
+            "id": 13,
+            "key": "sGM",
+            "descriptionGer": "",
+            "derscription_en": "Service GoogleMaps"
+        }
+    ],
+    "sup_geodata_info_message": [
+        {
+            "id": 1,
+            "key": "success",
+            "descriptionGer": "",
+            "descriptionEng": "Geodata was determined successful"
+        },
+        {
+            "id": -100,
+            "key": "ioExec",
+            "descriptionGer": "",
+            "descriptionEng": "IOException"
+        },
+        {
+            "id": -200,
+            "key": "neExec",
+            "descriptionGer": "",
+            "descriptionEng": "NotExistException"
+        }
+    ],
+    "sup_importer_interface": [
+        {
+            "id": 1,
+            "key": "Hausheld_V1",
+            "descriptionEng": "",
+            "descriptionGer": ""
+        },
+        {
+            "id": 2,
+            "key": "Hausheld_V2",
+            "descriptionEng": "",
+            "descriptionGer": ""
+        },
+        {
+            "id": 3,
+            "key": "SchleupenMDE_V1",
+            "descriptionEng": "",
+            "descriptionGer": ""
+        },
+        {
+            "id": 4,
+            "key": "SWSLS_V1",
+            "descriptionEng": "",
+            "descriptionGer": ""
+        }
+    ],
+    "sup_exporter_interface": [
+        {
+            "id": 1,
+            "key": "Hausheld_V1",
+            "descriptionEng": "",
+            "descriptionGer": ""
+        },
+        {
+            "id": 2,
+            "key": "Hausheld_V2",
+            "descriptionEng": "",
+            "descriptionGer": ""
+        },
+        {
+            "id": 3,
+            "key": "SchleupenMDE_V1",
+            "descriptionEng": "",
+            "descriptionGer": ""
+        },
+        {
+            "id": 4,
+            "key": "SWSLS_V1",
+            "descriptionEng": "",
+            "descriptionGer": ""
+        }
+    ],
+    "sup_job_action": [
+        {
+            "id": 10,
+            "key": "FCL",
+            "descriptionEng": "",
+            "descriptionGer": "Erstes Anschreiben erstellt"
+        },
+        {
+            "id": 11,
+            "key": "SCL",
+            "descriptionEng": "",
+            "descriptionGer": "Zweites Anschreiben erstellt"
+        },
+        {
+            "id": 100,
+            "key": "B2C_NC",
+            "descriptionEng": "",
+            "descriptionGer": "Daten zum Portal übertragen"
+        },
+        {
+            "id": 110,
+            "key": "T2C",
+            "descriptionEng": "",
+            "descriptionGer": "Kalenderdaten aktualisiert"
+        },
+        {
+            "id": 120,
+            "key": "DGD",
+            "descriptionEng": "",
+            "descriptionGer": "Geodaten ermittelt"
+        },
+        {
+            "id": 130,
+            "key": "DGD",
+            "descriptionEng": "",
+            "descriptionGer": "Adresskorrektur durchgeführt"
+        },
+        {
+            "id": 200,
+            "key": "T2S",
+            "descriptionEng": "",
+            "descriptionGer": "Auftragsdaten an Silo übertragen"
+        },
+        {
+            "id": 210,
+            "key": "TC2S",
+            "descriptionEng": "",
+            "descriptionGer": "Kundendaten an Silo übertragen"
+        },
+        {
+            "id": 211,
+            "key": "TI2S",
+            "descriptionEng": "",
+            "descriptionGer": "Importdaten an Silo übertragen"
+        },
+        {
+            "id": 220,
+            "key": "TD2S",
+            "descriptionEng": "",
+            "descriptionGer": "Dispo-Daten an Silo übertragen"
+        },
+        {
+            "id": 221,
+            "key": "TD2SC",
+            "descriptionEng": "",
+            "descriptionGer": ",'Dispo-Abbruch an Silo übertragen"
+        },
+        {
+            "id": 222,
+            "key": "TD2SM",
+            "descriptionEng": "",
+            "descriptionGer": ",'Dispo-Änderung an Silo übertragen"
+        },
+        {
+            "id": 300,
+            "key": "ED2O",
+            "descriptionEng": "",
+            "descriptionGer": "Wechseldaten-Datensatz exportiert"
+        },
+        {
+            "id": 301,
+            "key": "ED2SO",
+            "descriptionEng": "",
+            "descriptionGer": "MDE-Datensatz exportiert"
+        },
+        {
+            "id": 302,
+            "key": "EIR2O",
+            "descriptionEng": "",
+            "descriptionGer": "iMSys-Ready-Datensatz exportiert"
+        },
+        {
+            "id": 303,
+            "key": "ID2O",
+            "descriptionEng": "",
+            "descriptionGer": "Export infrastructure data to owner"
+        },
+        {
+            "id": 310,
+            "key": "ENED2O",
+            "descriptionEng": "",
+            "descriptionGer": "Abbruchdaten-Datensatz exportiert"
+        },
+        {
+            "id": 320,
+            "key": "ENAD2O",
+            "descriptionEng": "",
+            "descriptionGer": "Kein-Zugang-Datensatz exportiert"
+        },
+        {
+            "id": 330,
+            "key": "EDR2O",
+            "descriptionEng": "",
+            "descriptionGer": "Mangellisten-Datensatz exportiert"
+        },
+        {
+            "id": 400,
+            "key": "ED2C",
+            "descriptionEng": "",
+            "descriptionGer": "Wechselbeleg-Datensatz exportiert"
+        },
+        {
+            "id": 401,
+            "key": "ED2C_TO_RESUBMISSION",
+            "descriptionEng": "",
+            "descriptionGer": "FEHLER: Bilder nicht vorhanden >> Wiedervorlage"
+        },
+        {
+            "id": 1000,
+            "key": "SWSLS_ED",
+            "descriptionEng": "",
+            "descriptionGer": "SWSLS Wechseldaten erstellt"
+        },
+        {
+            "id": 1010,
+            "key": "SWSLS_NED",
+            "descriptionEng": "",
+            "descriptionGer": "SWSLS Abbruchdaten erstellt"
+        },
+        {
+            "id": 1020,
+            "key": "SWSLS_NAED",
+            "descriptionEng": "",
+            "descriptionGer": "SWSLS Kein-Zugang-Daten erstellt"
+        }
+    ],
+    "sup_job_action_result": [
+        {
+            "id": -4,
+            "key": "",
+            "descriptionEng": "",
+            "descriptionGer": "file not exist error"
+        },
+        {
+            "id": -3,
+            "key": "",
+            "descriptionEng": "",
+            "descriptionGer": "data error"
+        },
+        {
+            "id": -2,
+            "key": "",
+            "descriptionEng": "",
+            "descriptionGer": "I/O error"
+        },
+        {
+            "id": -1,
+            "key": "",
+            "descriptionEng": "",
+            "descriptionGer": "unknown error"
+        },
+        {
+            "id": 0,
+            "key": "",
+            "descriptionEng": "",
+            "descriptionGer": "unknown"
+        },
+        {
+            "id": 1,
+            "key": "",
+            "descriptionEng": "",
+            "descriptionGer": "success"
+        },
+        {
+            "id": 2,
+            "key": "",
+            "descriptionEng": "",
+            "descriptionGer": "not supported"
+        },
+        {
+            "id": 3,
+            "key": "",
+            "descriptionEng": "",
+            "descriptionGer": "crypto reset"
+        },
+        {
+            "id": 4,
+            "key": "",
+            "descriptionEng": "",
+            "descriptionGer": "unnecessary"
+        },
+        {
+            "id": 5,
+            "key": "",
+            "descriptionEng": "",
+            "descriptionGer": "set resubmission"
+        }
+    ],
+    "sup_job_action_document_type": [
+        {
+            "id": -1,
+            "key": "",
+            "descriptionEng": "",
+            "descriptionGer": "unknown"
+        },
+        {
+            "id": 0,
+            "key": "90",
+            "descriptionEng": "",
+            "descriptionGer": "90 day cover letter"
+        },
+        {
+            "id": 1,
+            "key": "14",
+            "descriptionEng": "",
+            "descriptionGer": "14 day cover letter"
+        },
+        {
+            "id": 2,
+            "key": "cd",
+            "descriptionEng": "",
+            "descriptionGer": "change data"
+        },
+        {
+            "id": 3,
+            "key": "cr",
+            "descriptionEng": "",
+            "descriptionGer": "change receipt"
+        },
+        {
+            "id": 4,
+            "key": "dr",
+            "descriptionEng": "",
+            "descriptionGer": "definciency report"
+        },
+        {
+            "id": 5,
+            "key": "ne",
+            "descriptionEng": "",
+            "descriptionGer": "change not executable"
+        },
+        {
+            "id": 8,
+            "key": "schex",
+            "descriptionEng": "",
+            "descriptionGer": "schleupen export data"
+        },
+        {
+            "id": 9,
+            "key": "ird",
+            "descriptionEng": "",
+            "descriptionGer": "imsys ready data"
+        },
+        {
+            "id": 10,
+            "key": "iSMCD",
+            "descriptionEng": "",
+            "descriptionGer": "import sm change data"
+        },
+        {
+            "id": 13,
+            "key": "ltr",
+            "descriptionEng": "",
+            "descriptionGer": "lantern test report"
+        },
+        {
+            "id": 11,
+            "key": "md",
+            "descriptionEng": "",
+            "descriptionGer": " 'master data"
+        },
+        {
+            "id": 12,
+            "key": "ce",
+            "descriptionEng": "",
+            "descriptionGer": " 'Customer Exchange"
+        }
+    ],
+    "sup_job_metering_point_type": [
+        {
+            "id": 0,
+            "key": "unknown",
+            "descriptionEng": "",
+            "descriptionGer": "Undefinied metering point type"
+        },
+        {
+            "id": 1,
+            "key": "ims",
+            "descriptionEng": "",
+            "descriptionGer": "iMS"
+        },
+        {
+            "id": 2,
+            "key": "mme",
+            "descriptionEng": "",
+            "descriptionGer": "mME+"
+        },
+        {
+            "id": 3,
+            "key": "mme",
+            "descriptionEng": "",
+            "descriptionGer": "mME"
+        },
+        {
+            "id": 4,
+            "key": "mme2ims",
+            "descriptionEng": "",
+            "descriptionGer": "mME2iMS"
+        }
+    ],
+    "sup_job_status": [
+        {
+            "id": 0,
+            "key": "in_creation",
+            "descriptionGer": "In Erstellung",
+            "descriptionEng": ""
+        },
+        {
+            "id": 1,
+            "key": "new",
+            "descriptionGer": "Neu",
+            "descriptionEng": ""
+        },
+        {
+            "id": 2,
+            "key": "executable",
+            "descriptionGer": "Ausführbar",
+            "descriptionEng": ""
+        },
+        {
+            "id": 3,
+            "key": "terminated",
+            "descriptionGer": "Terminiert",
+            "descriptionEng": ""
+        },
+        {
+            "id": 4,
+            "key": "approved",
+            "descriptionGer": "Freigegeben",
+            "descriptionEng": ""
+        },
+        {
+            "id": 5,
+            "key": "accessed",
+            "descriptionGer": "Abgerufen",
+            "descriptionEng": ""
+        },
+        {
+            "id": 6,
+            "key": "completed",
+            "descriptionGer": "Vollständig abgerufen",
+            "descriptionEng": ""
+        },
+        {
+            "id": 7,
+            "key": "on_road",
+            "descriptionGer": "Anfahrt",
+            "descriptionEng": ""
+        },
+        {
+            "id": 8,
+            "key": "in_progress",
+            "descriptionGer": "In Bearbeitung",
+            "descriptionEng": ""
+        },
+        {
+            "id": 50,
+            "key": "resubmission",
+            "descriptionGer": "In Wiedervorlage",
+            "descriptionEng": ""
+        },
+        {
+            "id": 51,
+            "key": "locked",
+            "descriptionGer": "Gesperrt",
+            "descriptionEng": ""
+        },
+        {
+            "id": 100,
+            "key": "finished",
+            "descriptionGer": "Abgeschlossen",
+            "descriptionEng": ""
+        },
+        {
+            "id": 110,
+            "key": "exchange_data_customer",
+            "descriptionGer": "Wechselbelegdaten erzeugt",
+            "descriptionEng": ""
+        },
+        {
+            "id": 120,
+            "key": "send_silo",
+            "descriptionGer": "Daten an Silo übermittelt",
+            "descriptionEng": ""
+        },
+        {
+            "id": 130,
+            "key": "exchange_data",
+            "descriptionGer": "Wechseldaten erzeugt",
+            "descriptionEng": ""
+        },
+        {
+            "id": 500,
+            "key": "closed",
+            "descriptionGer": "Geschlossen",
+            "descriptionEng": ""
+        },
+        {
+            "id": -1,
+            "key": "failed",
+            "descriptionGer": "Fehlgeschlagen",
+            "descriptionEng": ""
+        },
+        {
+            "id": -2,
+            "key": "canceled",
+            "descriptionGer": "Storniert",
+            "descriptionEng": ""
+        },
+        {
+            "id": -3,
+            "key": "not_executable",
+            "descriptionGer": "Nicht Ausführbar",
+            "descriptionEng": ""
+        },
+        {
+            "id": -4,
+            "key": "expired",
+            "descriptionGer": "Abgelaufen",
+            "descriptionEng": ""
+        },
+        {
+            "id": -5,
+            "key": "not_changeable",
+            "descriptionGer": "Nicht Wechselbar",
+            "descriptionEng": ""
+        },
+        {
+            "id": -6,
+            "key": "no_access",
+            "descriptionGer": "Kein Zugang",
+            "descriptionEng": ""
+        },
+        {
+            "id": -7,
+            "key": "informed",
+            "descriptionGer": "Informiert",
+            "descriptionEng": ""
+        },
+        {
+            "id": -8,
+            "key": "abort",
+            "descriptionGer": "Abgebrochen",
+            "descriptionEng": ""
+        },
+        {
+            "id": -110,
+            "key": "exchange_data_customer",
+            "descriptionGer": "Abbruchdaten, ggf. Mängelbericht erzeugt",
+            "descriptionEng": ""
+        },
+        {
+            "id": -120,
+            "key": "send_silo",
+            "descriptionGer": "Daten an Silo übermittelt",
+            "descriptionEng": ""
+        },
+        {
+            "id": -130,
+            "key": "exchange_data",
+            "descriptionGer": "TBD",
+            "descriptionEng": ""
+        }
+    ],
+    "sup_measurement_type": [
+        {
+            "key": "",
+            "id": 0,
+            "descriptionGer": "RSSI",
+            "descriptionEng": ""
+        },
+        {
+            "key": "",
+            "id": 1,
+            "descriptionGer": "Meter Reading",
+            "descriptionEng": ""
+        },
+        {
+            "key": "V",
+            "id": 2,
+            "descriptionGer": "Voltage",
+            "descriptionEng": ""
+        },
+        {
+            "key": "A",
+            "id": 3,
+            "descriptionGer": "Current",
+            "descriptionEng": ""
+        },
+        {
+            "key": "kWh",
+            "id": 4,
+            "descriptionGer": "Kilowatt * hour Power",
+            "descriptionEng": ""
+        },
+        {
+            "key": "kWh",
+            "id": 5,
+            "descriptionGer": "Kilowatt * hour Power (Remote Meter Reading)",
+            "descriptionEng": ""
+        }
+    ],
+    "sup_contact_type": [
+        {
+            "key": "mail",
+            "id": 0,
+            "descriptionGer": "E-Mail",
+            "descriptionEng": ""
+        },
+        {
+            "key": "mobile",
+            "id": 1,
+            "descriptionGer": "Mobile phone",
+            "descriptionEng": ""
+        },
+        {
+            "key": "phone",
+            "id": 2,
+            "descriptionGer": "Home Phone",
+            "descriptionEng": ""
+        }
+    ],
+    "sup_job_abort_type": [
+        {
+            "key": "absent",
+            "id": 100,
+            "descriptionGer": "Nicht anwesend",
+            "descriptionEng": ""
+        },
+        {
+            "key": "noEntry",
+            "id": 101,
+            "descriptionGer": "Kein Zutritt",
+            "descriptionEng": ""
+        },
+        {
+            "key": "noLetter",
+            "id": 102,
+            "descriptionGer": "Kein Anschreiben erhalten",
+            "descriptionEng": ""
+        },
+        {
+            "key": "iMSysDenied",
+            "id": 103,
+            "descriptionGer": "Will kein iMSys",
+            "descriptionEng": ""
+        },
+        {
+            "key": "meterBlocked",
+            "id": 104,
+            "descriptionGer": "Zähler nicht zugänglich",
+            "descriptionEng": ""
+        },
+        {
+            "key": "meterNotFound",
+            "id": 105,
+            "descriptionGer": "Zähler nicht gefunden",
+            "descriptionEng": ""
+        },
+        {
+            "key": "powerCanNotOff",
+            "id": 106,
+            "descriptionGer": "Strom nicht abschaltbar",
+            "descriptionEng": ""
+        },
+        {
+            "key": "meterMismatch",
+            "id": 200,
+            "descriptionGer": "Falscher Zähler vor Ort",
+            "descriptionEng": ""
+        },
+        {
+            "key": "dispo",
+            "id": 500,
+            "descriptionGer": "Keine Angabe",
+            "descriptionEng": ""
+        },
+        {
+            "key": "noTime",
+            "id": 501,
+            "descriptionGer": "Keine Angabe",
+            "descriptionEng": ""
+        },
+        {
+            "key": "noMaterial",
+            "id": 502,
+            "descriptionGer": "Keine Angabe",
+            "descriptionEng": ""
+        },
+        {
+            "key": "technicalLack",
+            "id": 300,
+            "descriptionGer": "Technischer Mangel",
+            "descriptionEng": ""
+        },
+        {
+            "key": "other",
+            "id": 400,
+            "descriptionGer": "Keine Angabe",
+            "descriptionEng": ""
+        },
+        {
+            "key": "notFound",
+            "id": 201,
+            "descriptionGer": "Adresse nicht gefunden",
+            "descriptionEng": ""
+        },
+        {
+            "key": "nosupply",
+            "id": 310,
+            "descriptionGer": "Keine Angabe",
+            "descriptionEng": ""
+        },
+        {
+            "key": "nospace",
+            "id": 311,
+            "descriptionGer": "Keine Angabe",
+            "descriptionEng": ""
+        }
+    ],
+    "sup_tariff_type": [
+        {
+            "id": 0,
+            "key": "1",
+            "descriptionGer": "Datensparsame Tarife (TAF 1)",
+            "descriptionEng": ""
+        },
+        {
+            "id": 1,
+            "key": "2",
+            "descriptionGer": "Zeitvariable Tarife (TAF 2)",
+            "descriptionEng": ""
+        },
+        {
+            "id": 2,
+            "key": "3",
+            "descriptionGer": "Lastvariable Tarife (TAF 3)",
+            "descriptionEng": ""
+        },
+        {
+            "id": 3,
+            "key": "4",
+            "descriptionGer": "Verbrauchsvariable Tarife (TAF 4)",
+            "descriptionEng": ""
+        },
+        {
+            "id": 4,
+            "key": "5",
+            "descriptionGer": "Ereignisvariable Tarife (TAF 5)",
+            "descriptionEng": ""
+        },
+        {
+            "id": 5,
+            "key": "6",
+            "descriptionGer": "Abruf von Messwerten im Bedarfsfall (TAF 6)",
+            "descriptionEng": ""
+        },
+        {
+            "id": 6,
+            "key": "7",
+            "descriptionGer": "Zählerstandsgangmessung (TAF 7)",
+            "descriptionEng": ""
+        },
+        {
+            "id": 7,
+            "key": "8",
+            "descriptionGer": "Erfassung der Extremwerte für Leistung (TAF 8)",
+            "descriptionEng": ""
+        },
+        {
+            "id": 8,
+            "key": "9",
+            "descriptionGer": "Ist-Einspeisung einer Erzeugungsanlage (TAF 9)",
+            "descriptionEng": ""
+        },
+        {
+            "id": 9,
+            "key": "10",
+            "descriptionGer": "Abruf von Netzzustandsdaten (TAF 10)",
+            "descriptionEng": ""
+        },
+        {
+            "id": 10,
+            "key": "11",
+            "descriptionGer": "Steuerung von unterbrechbaren Verbrauchseinrichtungen und Erzeugungsanlagen (TAF 11)",
+            "descriptionEng": ""
+        },
+        {
+            "id": 11,
+            "key": "12",
+            "descriptionGer": "Prepaid-Tarif (TAF 12)",
+            "descriptionEng": ""
+        },
+        {
+            "id": 12,
+            "key": "13",
+            "descriptionGer": "Letztverbraucher-Visualisierung (TAF 13)",
+            "descriptionEng": ""
+        }
+    ]
+}

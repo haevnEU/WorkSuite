@@ -1,0 +1,1150 @@
+[
+    {
+        "id": 39085,
+        "project": {
+            "id": 614,
+            "name": "Hausheld ERP-Tool",
+            "identifier": null,
+            "description": null,
+            "createdAt": null,
+            "updatedAt": null,
+            "tickets": null
+        },
+        "tracker": {
+            "id": 10,
+            "name": "Task"
+        },
+        "status": {
+            "id": 19,
+            "name": "In Review",
+            "isClosed": false
+        },
+        "priority": {
+            "id": 2,
+            "name": "Normal"
+        },
+        "author": {
+            "id": 424,
+            "name": "Artur John"
+        },
+        "assignedTo": {
+            "id": 388,
+            "name": "Nils Milewski"
+        },
+        "subject": "eLs für Berlin",
+        "description": "Hallo Sebastian,\r\n\r\nwir haben wieder eine Lieferung für Berlin und der eLs muss angepasst werden. (siehe #31573)\r\n\r\nhabe die Stückzahl auf 250 pro Datei schon geändert.\r\n\r\nVG Artur",
+        "startDate": "2026-07-16",
+        "dueDate": "2026-07-31",
+        "doneRatio": 100,
+        "isPrivate": false,
+        "estimatedHours": null,
+        "spentHours": 0,
+        "totalSpentHours": 0,
+        "createdOn": "2026-07-16T08:28:03Z",
+        "updatedOn": "2026-07-30T12:05:28Z",
+        "closedOn": null,
+        "attachments": [
+            {
+                "id": 60236,
+                "filename": "Batch_5109_1HHE0310371190_to_1HHE0310371439.csv",
+                "filesize": 76813,
+                "contentType": "application/vnd.ms-excel",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/60236/Batch_5109_1HHE0310371190_to_1HHE0310371439.csv",
+                "thumbnailUrl": null,
+                "author": {
+                    "id": 424,
+                    "name": "Artur John"
+                },
+                "createdOn": "2026-07-16T08:27:12Z"
+            },
+            {
+                "id": 60237,
+                "filename": "Batch_5109_1HHE0310371440_to_1HHE0310371689.csv",
+                "filesize": 76815,
+                "contentType": "application/vnd.ms-excel",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/60237/Batch_5109_1HHE0310371440_to_1HHE0310371689.csv",
+                "thumbnailUrl": null,
+                "author": {
+                    "id": 424,
+                    "name": "Artur John"
+                },
+                "createdOn": "2026-07-16T08:27:12Z"
+            },
+            {
+                "id": 60238,
+                "filename": "Batch_5109_1HHE0310371690_to_1HHE0310371939.csv",
+                "filesize": 76815,
+                "contentType": "application/vnd.ms-excel",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/60238/Batch_5109_1HHE0310371690_to_1HHE0310371939.csv",
+                "thumbnailUrl": null,
+                "author": {
+                    "id": 424,
+                    "name": "Artur John"
+                },
+                "createdOn": "2026-07-16T08:27:12Z"
+            },
+            {
+                "id": 60239,
+                "filename": "Batch_5109_1HHE0310371940_to_1HHE0310372189.csv",
+                "filesize": 76815,
+                "contentType": "application/vnd.ms-excel",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/60239/Batch_5109_1HHE0310371940_to_1HHE0310372189.csv",
+                "thumbnailUrl": null,
+                "author": {
+                    "id": 424,
+                    "name": "Artur John"
+                },
+                "createdOn": "2026-07-16T08:27:12Z"
+            },
+            {
+                "id": 60243,
+                "filename": "clipboard-202607161034-9reet.png",
+                "filesize": 55294,
+                "contentType": "image/png",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/60243/clipboard-202607161034-9reet.png",
+                "thumbnailUrl": "https://pm.hausheld.info/attachments/thumbnail/60243",
+                "author": {
+                    "id": 324,
+                    "name": "Sebastian Blunk"
+                },
+                "createdOn": "2026-07-16T08:34:47Z"
+            },
+            {
+                "id": 61295,
+                "filename": "HHE_2026-06-100881_657557_2026-07-29.xml",
+                "filesize": 1610593,
+                "contentType": "text/xml",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/61295/HHE_2026-06-100881_657557_2026-07-29.xml",
+                "thumbnailUrl": null,
+                "author": {
+                    "id": 324,
+                    "name": "Sebastian Blunk"
+                },
+                "createdOn": "2026-07-29T10:48:39Z"
+            }
+        ],
+        "journals": null,
+        "relations": []
+    },
+    {
+        "id": 38882,
+        "project": {
+            "id": 596,
+            "name": "SWFFB - Stadtwerke Fürstenfeldbruck",
+            "identifier": null,
+            "description": null,
+            "createdAt": null,
+            "updatedAt": null,
+            "tickets": null
+        },
+        "tracker": {
+            "id": 3,
+            "name": "Support"
+        },
+        "status": {
+            "id": 1,
+            "name": "New",
+            "isClosed": false
+        },
+        "priority": {
+            "id": 3,
+            "name": "High"
+        },
+        "author": {
+            "id": 621,
+            "name": "Tabitha Cleve"
+        },
+        "assignedTo": {
+            "id": 388,
+            "name": "Nils Milewski"
+        },
+        "subject": "Korrektur 1:1:n Aufträge zu mME",
+        "description": "Hallo Benjamin,\r\n\r\nin FFB wurden bei ein paar 1:1:n Aufträgen stattdessen normale mME Zählerwechsel vorgenommen. Diese Aufträge sollen nachträglich bitte korrigiert werden. Anbei sind die angepassten MDE Dateien. Vielen Dank fürs korrigieren!\r\n\r\nViele Grüße\r\nTabitha",
+        "startDate": "2026-07-13",
+        "dueDate": "2026-07-24",
+        "doneRatio": 0,
+        "isPrivate": false,
+        "estimatedHours": null,
+        "spentHours": 0,
+        "totalSpentHours": 0,
+        "createdOn": "2026-07-13T09:34:24Z",
+        "updatedOn": "2026-07-16T21:18:28Z",
+        "closedOn": null,
+        "attachments": [
+            {
+                "id": 59931,
+                "filename": "Export_Auftrag_MDE_Adelshofen_MSB_Korrektur.txt",
+                "filesize": 3768,
+                "contentType": "text/plain",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/59931/Export_Auftrag_MDE_Adelshofen_MSB_Korrektur.txt",
+                "thumbnailUrl": null,
+                "author": {
+                    "id": 621,
+                    "name": "Tabitha Cleve"
+                },
+                "createdOn": "2026-07-13T09:32:26Z"
+            },
+            {
+                "id": 59932,
+                "filename": "Export_Auftrag_MDE_Adelshofen_Strom_Korrektur_PlusAPK.txt",
+                "filesize": 4242,
+                "contentType": "text/plain",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/59932/Export_Auftrag_MDE_Adelshofen_Strom_Korrektur_PlusAPK.txt",
+                "thumbnailUrl": null,
+                "author": {
+                    "id": 621,
+                    "name": "Tabitha Cleve"
+                },
+                "createdOn": "2026-07-13T09:32:26Z"
+            }
+        ],
+        "journals": null,
+        "relations": [
+            {
+                "id": 7025,
+                "issueId": 37577,
+                "issueToId": 38882,
+                "relationType": "relates",
+                "delay": null
+            }
+        ]
+    },
+    {
+        "id": 38684,
+        "project": {
+            "id": 614,
+            "name": "Hausheld ERP-Tool",
+            "identifier": null,
+            "description": null,
+            "createdAt": null,
+            "updatedAt": null,
+            "tickets": null
+        },
+        "tracker": {
+            "id": 10,
+            "name": "Task"
+        },
+        "status": {
+            "id": 1,
+            "name": "New",
+            "isClosed": false
+        },
+        "priority": {
+            "id": 2,
+            "name": "Normal"
+        },
+        "author": {
+            "id": 324,
+            "name": "Sebastian Blunk"
+        },
+        "assignedTo": {
+            "id": 388,
+            "name": "Nils Milewski"
+        },
+        "subject": "Prozessdiagramm - Factory eLS-Creator",
+        "description": "Beim Factory eLS-Creator wird ein Lieferschein für von uns produzierte Geräte erstellt.\r\n\r\nDieser Prozess soll visualisiert werden.",
+        "startDate": "2026-07-08",
+        "dueDate": "2026-07-29",
+        "doneRatio": 0,
+        "isPrivate": false,
+        "estimatedHours": null,
+        "spentHours": 0,
+        "totalSpentHours": 0,
+        "createdOn": "2026-07-08T09:00:13Z",
+        "updatedOn": "2026-07-08T09:00:13Z",
+        "closedOn": null,
+        "attachments": [],
+        "journals": null,
+        "relations": []
+    },
+    {
+        "id": 38682,
+        "project": {
+            "id": 375,
+            "name": "WMT-Hintergrundsystem",
+            "identifier": null,
+            "description": null,
+            "createdAt": null,
+            "updatedAt": null,
+            "tickets": null
+        },
+        "tracker": {
+            "id": 10,
+            "name": "Task"
+        },
+        "status": {
+            "id": 1,
+            "name": "New",
+            "isClosed": false
+        },
+        "priority": {
+            "id": 2,
+            "name": "Normal"
+        },
+        "author": {
+            "id": 324,
+            "name": "Sebastian Blunk"
+        },
+        "assignedTo": {
+            "id": 388,
+            "name": "Nils Milewski"
+        },
+        "subject": "Prozessdiagramm - Validierungssystem",
+        "description": "Das Validierungssystem soll auf allen Uploads gleich funktionieren.\r\n\r\nDieser Prozess soll visualisiert werden.",
+        "startDate": "2026-07-08",
+        "dueDate": "2026-07-29",
+        "doneRatio": 0,
+        "isPrivate": false,
+        "estimatedHours": null,
+        "spentHours": 0,
+        "totalSpentHours": 0,
+        "createdOn": "2026-07-08T08:53:34Z",
+        "updatedOn": "2026-07-08T08:53:34Z",
+        "closedOn": null,
+        "attachments": [],
+        "journals": null,
+        "relations": []
+    },
+    {
+        "id": 37861,
+        "project": {
+            "id": 375,
+            "name": "WMT-Hintergrundsystem",
+            "identifier": null,
+            "description": null,
+            "createdAt": null,
+            "updatedAt": null,
+            "tickets": null
+        },
+        "tracker": {
+            "id": 10,
+            "name": "Task"
+        },
+        "status": {
+            "id": 1,
+            "name": "New",
+            "isClosed": false
+        },
+        "priority": {
+            "id": 2,
+            "name": "Normal"
+        },
+        "author": {
+            "id": 324,
+            "name": "Sebastian Blunk"
+        },
+        "assignedTo": {
+            "id": 388,
+            "name": "Nils Milewski"
+        },
+        "subject": "Prozessdiagramm für SW-Einbau",
+        "description": "Es soll ein Prozessdiagramm für den SW-Einbau gezeichnet werden. Dies muss an den Stammdatenupload andocken.",
+        "startDate": "2026-06-17",
+        "dueDate": "2026-07-29",
+        "doneRatio": 100,
+        "isPrivate": false,
+        "estimatedHours": null,
+        "spentHours": 2,
+        "totalSpentHours": 2,
+        "createdOn": "2026-06-17T08:51:15Z",
+        "updatedOn": "2026-07-08T08:11:28Z",
+        "closedOn": null,
+        "attachments": [
+            {
+                "id": 59481,
+                "filename": "stadtwerke_cron.drawio",
+                "filesize": 8448,
+                "contentType": null,
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/59481/stadtwerke_cron.drawio",
+                "thumbnailUrl": null,
+                "author": {
+                    "id": 388,
+                    "name": "Nils Milewski"
+                },
+                "createdOn": "2026-07-07T06:23:15Z"
+            },
+            {
+                "id": 59482,
+                "filename": "stadtwerke_full.drawio",
+                "filesize": 15011,
+                "contentType": null,
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/59482/stadtwerke_full.drawio",
+                "thumbnailUrl": null,
+                "author": {
+                    "id": 388,
+                    "name": "Nils Milewski"
+                },
+                "createdOn": "2026-07-07T06:23:15Z"
+            },
+            {
+                "id": 59483,
+                "filename": "stadtwerke_full2.drawio",
+                "filesize": 17667,
+                "contentType": null,
+                "description": "Finale Version",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/59483/stadtwerke_full2.drawio",
+                "thumbnailUrl": null,
+                "author": {
+                    "id": 388,
+                    "name": "Nils Milewski"
+                },
+                "createdOn": "2026-07-07T06:23:15Z"
+            },
+            {
+                "id": 59484,
+                "filename": "stadtwerke_upload.drawio",
+                "filesize": 8145,
+                "contentType": null,
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/59484/stadtwerke_upload.drawio",
+                "thumbnailUrl": null,
+                "author": {
+                    "id": 388,
+                    "name": "Nils Milewski"
+                },
+                "createdOn": "2026-07-07T06:23:15Z"
+            }
+        ],
+        "journals": null,
+        "relations": []
+    },
+    {
+        "id": 37343,
+        "project": {
+            "id": 375,
+            "name": "WMT-Hintergrundsystem",
+            "identifier": null,
+            "description": null,
+            "createdAt": null,
+            "updatedAt": null,
+            "tickets": null
+        },
+        "tracker": {
+            "id": 10,
+            "name": "Task"
+        },
+        "status": {
+            "id": 16,
+            "name": "Sprint Backlog",
+            "isClosed": false
+        },
+        "priority": {
+            "id": 2,
+            "name": "Normal"
+        },
+        "author": {
+            "id": 516,
+            "name": "Benjamin Schmithuysen"
+        },
+        "assignedTo": {
+            "id": 388,
+            "name": "Nils Milewski"
+        },
+        "subject": "Register und Zählerstand bei SW-Einbauten optional",
+        "description": "h2. IST\r\n\r\nDie Felder <code>Registerangaben in OBIS (A-B:C.D.E)</code> und <code>Register/Zählerstand bei Einbau (in kWh)</code> sind Pflichtfelder.\r\n\r\n!clipboard-202606030858-zxnjz.png!\r\n\r\nh2. SOLL\r\n\r\nBeide Felder sollen zukünftig optional sein.\r\n\r\n---\r\n\r\nh3. Umsetzung\r\n\r\nDie Felder <code>Registerangaben in OBIS (A-B:C.D.E)</code> (Index 8) und <code>Register/Zählerstand bei Einbau (in kWh)</code> (Index 10) auf optional = true setzen.\r\nFalls keine OBIS angegeben sind, müssen die Register aus Zählertyp SOLL aus den Stammdaten gezogen werden und dementsprechend gesetzt werden.\r\nFehlende Zählerstände sind mit dem Wert 0 zu füllen.\r\nSind die Register nicht angegeben aber die Zählerstände, müssen diese entsprechend hinterlegt werden.\r\nStimmt die Anzahl der Zählerstände nicht mit Zählertyp SOLL aus den Stammdaten überein, sind alle Zählerstände mit dem Wert 0 zu belegen, da keine richtige Zuordnung garantiert werden kann.\r\nBesonders Detailansicht und Übertragung nach Kafka sollte geprüft werden. \r\n\r\n---\r\n\r\nh3. Akzeptanzkriterien\r\n\r\n* Feld <code>Registerangaben in OBIS (A-B:C.D.E)</code> auf optional setzen\r\n* Feld <code>Register/Zählerstand bei Einbau (in kWh)</code> auf optional setzen\r\n* Wenn Feld <code>Registerangaben in OBIS (A-B:C.D.E)</code> leer, Zählertyp/Register aus Stammdaten ziehen\r\n* Wenn Feld <code>Register/Zählerstand bei Einbau (in kWh)</code> leer, Zählerstände auf 0 setzen\r\n* Wenn Anzahl Zählerstände != Anzahl Register = alle Werte auf 0 setzen\r\n",
+        "startDate": "2026-06-03",
+        "dueDate": null,
+        "doneRatio": 0,
+        "isPrivate": false,
+        "estimatedHours": 20,
+        "spentHours": 0,
+        "totalSpentHours": 0,
+        "createdOn": "2026-06-03T07:01:19Z",
+        "updatedOn": "2026-07-17T08:49:09Z",
+        "closedOn": null,
+        "attachments": [
+            {
+                "id": 57401,
+                "filename": "clipboard-202606030858-zxnjz.png",
+                "filesize": 34397,
+                "contentType": "image/png",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/57401/clipboard-202606030858-zxnjz.png",
+                "thumbnailUrl": "https://pm.hausheld.info/attachments/thumbnail/57401",
+                "author": {
+                    "id": 516,
+                    "name": "Benjamin Schmithuysen"
+                },
+                "createdOn": "2026-06-03T06:58:28Z"
+            }
+        ],
+        "journals": null,
+        "relations": []
+    },
+    {
+        "id": 35930,
+        "project": {
+            "id": 478,
+            "name": "Reporting (Grafana)",
+            "identifier": null,
+            "description": null,
+            "createdAt": null,
+            "updatedAt": null,
+            "tickets": null
+        },
+        "tracker": {
+            "id": 1,
+            "name": "Bug"
+        },
+        "status": {
+            "id": 4,
+            "name": "Feedback",
+            "isClosed": false
+        },
+        "priority": {
+            "id": 2,
+            "name": "Normal"
+        },
+        "author": {
+            "id": 294,
+            "name": "Christian Bartsch"
+        },
+        "assignedTo": {
+            "id": 388,
+            "name": "Nils Milewski"
+        },
+        "subject": "Anzeigefehler im Dashboard Dispo -> Montageauswertung",
+        "description": "Hallo Sebastian,\r\n\r\nAnzeigefehler im Dashboard Dispo -> Montageauswertung\r\n\r\ndie Zahlen stimmen leider nicht mit dem WMT überein.\r\n\r\n!clipboard-202604281135-oukg4.png!\r\n\r\nIm WMT hat er in der Woche 67 Aufträge erledigt.\r\n\r\n!clipboard-202604281137-evpds.png! 16\r\n!clipboard-202604281138-ahdok.png! 24\r\n!clipboard-202604281139-appp6.png! 27",
+        "startDate": "2026-04-28",
+        "dueDate": "2026-08-07",
+        "doneRatio": 0,
+        "isPrivate": false,
+        "estimatedHours": null,
+        "spentHours": 3,
+        "totalSpentHours": 3,
+        "createdOn": "2026-04-28T09:39:22Z",
+        "updatedOn": "2026-07-17T14:04:50Z",
+        "closedOn": null,
+        "attachments": [
+            {
+                "id": 55495,
+                "filename": "clipboard-202604281135-oukg4.png",
+                "filesize": 101782,
+                "contentType": "image/png",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/55495/clipboard-202604281135-oukg4.png",
+                "thumbnailUrl": "https://pm.hausheld.info/attachments/thumbnail/55495",
+                "author": {
+                    "id": 294,
+                    "name": "Christian Bartsch"
+                },
+                "createdOn": "2026-04-28T09:35:42Z"
+            },
+            {
+                "id": 55496,
+                "filename": "clipboard-202604281137-evpds.png",
+                "filesize": 27600,
+                "contentType": "image/png",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/55496/clipboard-202604281137-evpds.png",
+                "thumbnailUrl": "https://pm.hausheld.info/attachments/thumbnail/55496",
+                "author": {
+                    "id": 294,
+                    "name": "Christian Bartsch"
+                },
+                "createdOn": "2026-04-28T09:37:25Z"
+            },
+            {
+                "id": 55497,
+                "filename": "clipboard-202604281138-ahdok.png",
+                "filesize": 30235,
+                "contentType": "image/png",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/55497/clipboard-202604281138-ahdok.png",
+                "thumbnailUrl": "https://pm.hausheld.info/attachments/thumbnail/55497",
+                "author": {
+                    "id": 294,
+                    "name": "Christian Bartsch"
+                },
+                "createdOn": "2026-04-28T09:38:11Z"
+            },
+            {
+                "id": 55498,
+                "filename": "clipboard-202604281139-appp6.png",
+                "filesize": 29942,
+                "contentType": "image/png",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/55498/clipboard-202604281139-appp6.png",
+                "thumbnailUrl": "https://pm.hausheld.info/attachments/thumbnail/55498",
+                "author": {
+                    "id": 294,
+                    "name": "Christian Bartsch"
+                },
+                "createdOn": "2026-04-28T09:39:04Z"
+            }
+        ],
+        "journals": null,
+        "relations": []
+    },
+    {
+        "id": 35724,
+        "project": {
+            "id": 375,
+            "name": "WMT-Hintergrundsystem",
+            "identifier": null,
+            "description": null,
+            "createdAt": null,
+            "updatedAt": null,
+            "tickets": null
+        },
+        "tracker": {
+            "id": 10,
+            "name": "Task"
+        },
+        "status": {
+            "id": 16,
+            "name": "Sprint Backlog",
+            "isClosed": false
+        },
+        "priority": {
+            "id": 2,
+            "name": "Normal"
+        },
+        "author": {
+            "id": 516,
+            "name": "Benjamin Schmithuysen"
+        },
+        "assignedTo": {
+            "id": 388,
+            "name": "Nils Milewski"
+        },
+        "subject": "Kategorie abhängig vom Abbruchgrund setzen ",
+        "description": "h2. IST\r\n\r\nWerden Aufträge vom Monteur abgebrochen, landen diese Aufträge je nach Abbruchgrund in Status -3 (nicht Ausführbar) oder -6 (Kein Zugang).\r\n\r\nh2. SOLL\r\n\r\nJe nach Abbruchgrund des Monteurs soll der Auftrag automatisch weiter in den nächsten Status verschoben werden: \r\n\r\n |_.Abbruchgrund|_.Übermittelter Status App |_.Folgezustand|_.Folgestatus|\r\n |Nicht vor Ort | -6 | Neuterminierung| 2 |\r\n |Verweigert (kein Brief erhalten) | -6 | Neuterminierung | 2 | \r\n |Verweigert (möchte kein IMSYS/keinen Zählerwechsel) | -3 | SW-Klärfall | -3 | \r\n |Zugang zum Zähler nicht möglich | -3 | SW-Klärfall | -3 |\r\n |Zähler nicht gefunden | -3 | SW-Klärfall | -3 |\r\n |Abschaltung nicht möglich | -6 | Neuterminierung| 2 |\r\n |Daten o. Hardware stimmen nicht überein | -3 | SW-Klärfall | -3 | \r\n |Ausfall Monteur(?) | -6 | Neuterminierung| 2 |\r\n |Zu spät / Zeitproblem| -6 | Neuterminierung| 2 |\r\n |Kein Material | -6 | Neuterminierung| 2 |\r\n |Technischer Abbruch (Mangel?) | -3 | Techn. Klärfall | -5 | \r\n |Adresse nicht gefunden | -3 | SW-Klärfall | -3 |\r\n\r\nDaraus ergibt sich, dass:\r\n* alle Aufträge, die auf -6 gehen, auf Status 2 weitergeleitet werden sollen. Außerdem muss der Termin und Monteur gelöscht werden.\r\n* alle Aufträge, die auf -3 gehen, sollen auf -3 (\"SW-Klärfall\") bleiben, außer die Aufträge mit Abbruchgründen der Kategorie \"Technischer Mangel\". Diese sollen auf Status -5 (\"Techn. Klärfall\") weitergeleitet werden.\r\n\r\n\"Technischer Mangel\" erkennt man daran, dass im CommentModel im Restcall <code>setJobStatusNotExecutable</code> im Parameter \"text\" der String \"technicalLack\" vorkommt.\r\n\r\nZusatzinfo: Falls ein direktes Setzen auf Status 2 nicht zulässig ist, ist auch ein Setzen auf Status 0 möglich, da der Importer den Auftrag dann automatisch auf Status 2 weitersetzen sollte.\r\nZusatzinfo 2: Es muss geprüft werden, ob ein Export der \"notexecutable\"-Datei und des Mängelberichts weiterhin durchgeführt wird, weil der Status nicht mehr dem ursprünglichen Status entspricht.\r\n\r\nh3. Akzeptanzkriterien:\r\n\r\n* Alle Aufträge, die auf -6 gehen, sollen auf Status 2 weitergeleitet werden\r\n* Bei Aufträgen im Status 2 muss der Termin und Monteur entfernt werden\r\n* Alle Aufträge, die nicht erfolgreich beendet wurden und mit \"technicalLack\" abgesendet wurden, müssen auf Status -5 gesetzt werden\r\n\r\n",
+        "startDate": "2026-04-21",
+        "dueDate": null,
+        "doneRatio": 80,
+        "isPrivate": false,
+        "estimatedHours": 8,
+        "spentHours": 14,
+        "totalSpentHours": 14,
+        "createdOn": "2026-04-21T14:22:37Z",
+        "updatedOn": "2026-07-29T14:17:07Z",
+        "closedOn": null,
+        "attachments": [],
+        "journals": null,
+        "relations": [
+            {
+                "id": 6258,
+                "issueId": 16499,
+                "issueToId": 35724,
+                "relationType": "relates",
+                "delay": null
+            },
+            {
+                "id": 7053,
+                "issueId": 25952,
+                "issueToId": 35724,
+                "relationType": "relates",
+                "delay": null
+            }
+        ]
+    },
+    {
+        "id": 33541,
+        "project": {
+            "id": 375,
+            "name": "WMT-Hintergrundsystem",
+            "identifier": null,
+            "description": null,
+            "createdAt": null,
+            "updatedAt": null,
+            "tickets": null
+        },
+        "tracker": {
+            "id": 10,
+            "name": "Task"
+        },
+        "status": {
+            "id": 2,
+            "name": "In Progress",
+            "isClosed": false
+        },
+        "priority": {
+            "id": 2,
+            "name": "Normal"
+        },
+        "author": {
+            "id": 54,
+            "name": "Nico Themanns"
+        },
+        "assignedTo": {
+            "id": 388,
+            "name": "Nils Milewski"
+        },
+        "subject": "Dockerisierung WMT",
+        "description": "h2. IST\r\n\r\nDas WMT wird aktuell noch nicht in einem Dockercontainer ausgeführt.\r\n\r\nh2. SOLL\r\n\r\nEs sollen Dockerskripte erstellt werden, wodurch das WMT in einem Docker läuft. \r\n\r\n---\r\n\r\nh3. AKzeptanzkriterien\r\n\r\n* WMT in Docker ausführen\r\n* Möglichkeit zwei verschiedene Arten von Docker zu bauen\r\n** Eine Version für den normalen Betrieb \r\n** Eine Version zum entwickeln mit Kafka und Debug-Modus",
+        "startDate": "2026-02-23",
+        "dueDate": null,
+        "doneRatio": 0,
+        "isPrivate": false,
+        "estimatedHours": 24,
+        "spentHours": 0,
+        "totalSpentHours": 0,
+        "createdOn": "2026-02-23T16:43:37Z",
+        "updatedOn": "2026-07-21T07:40:28Z",
+        "closedOn": null,
+        "attachments": [],
+        "journals": null,
+        "relations": [
+            {
+                "id": 6142,
+                "issueId": 33541,
+                "issueToId": 35277,
+                "relationType": "relates",
+                "delay": null
+            }
+        ]
+    },
+    {
+        "id": 29634,
+        "project": {
+            "id": 375,
+            "name": "WMT-Hintergrundsystem",
+            "identifier": null,
+            "description": null,
+            "createdAt": null,
+            "updatedAt": null,
+            "tickets": null
+        },
+        "tracker": {
+            "id": 1,
+            "name": "Bug"
+        },
+        "status": {
+            "id": 1,
+            "name": "New",
+            "isClosed": false
+        },
+        "priority": {
+            "id": 2,
+            "name": "Normal"
+        },
+        "author": {
+            "id": 388,
+            "name": "Nils Milewski"
+        },
+        "assignedTo": {
+            "id": 388,
+            "name": "Nils Milewski"
+        },
+        "subject": "Stammdatenupload ist Fehlerhaft",
+        "description": "Bei den Stammdatenupload sind folgende Bugs aufgetreten.\r\n* Melo Validierung, Melos werden nicht richtig geprüft und korrekte werden als Fehler deklariert\r\n* Bei leerem Kommentar wird die letzte Spalte ignoriert, hierdurch fehlt eine Spalte bei der Spaltenprüfung\r\n\r\nFolgende Optimierung kann umgesetzt werden\r\n* Entfernen von nicht erlaubten Zeichen (Bsp. \\uFEFF)",
+        "startDate": "2025-12-08",
+        "dueDate": null,
+        "doneRatio": 0,
+        "isPrivate": false,
+        "estimatedHours": null,
+        "spentHours": 0,
+        "totalSpentHours": 0,
+        "createdOn": "2025-12-08T12:27:55Z",
+        "updatedOn": "2025-12-18T08:47:57Z",
+        "closedOn": null,
+        "attachments": [],
+        "journals": null,
+        "relations": [
+            {
+                "id": 5122,
+                "issueId": 28451,
+                "issueToId": 29634,
+                "relationType": "relates",
+                "delay": null
+            }
+        ]
+    },
+    {
+        "id": 29488,
+        "project": {
+            "id": 614,
+            "name": "Hausheld ERP-Tool",
+            "identifier": null,
+            "description": null,
+            "createdAt": null,
+            "updatedAt": null,
+            "tickets": null
+        },
+        "tracker": {
+            "id": 1,
+            "name": "Bug"
+        },
+        "status": {
+            "id": 16,
+            "name": "Sprint Backlog",
+            "isClosed": false
+        },
+        "priority": {
+            "id": 2,
+            "name": "Normal"
+        },
+        "author": {
+            "id": 54,
+            "name": "Nico Themanns"
+        },
+        "assignedTo": {
+            "id": 388,
+            "name": "Nils Milewski"
+        },
+        "subject": "Factory-eLS: 2-Richtung, Doppeltarif Zähler werden nicht mit allen benötigten Registern erstellt",
+        "description": "h2. IST\r\n\r\nElektronische Lieferscheine für 2-Richtung, Doppeltarif Zähler werden nicht mit den Registern 1.8.1 und 1.8.2 sondern nur mit 1.8.0 und 2.8.0 erstellt.\r\n\r\nh2. SOLL\r\n\r\nDie Register im eLS müssen mit dem Zählertyp übereinstimmen. In diesem spezifischen Fall (2-Richtung, Doppeltarif) bedeutet dies es müssen die Register 1.8.0, 1.8.1, 1.8.2, 2.8.0, 2.8.1, 2.8.2 in exakt dieser Reihenfolge im eLS angelegt werden.\r\n\r\nBeispiel:\r\n!clipboard-202512041047-kfxkl.png!\r\n",
+        "startDate": "2025-12-04",
+        "dueDate": null,
+        "doneRatio": 100,
+        "isPrivate": false,
+        "estimatedHours": null,
+        "spentHours": 0.6000000238418579,
+        "totalSpentHours": 0.6000000238418579,
+        "createdOn": "2025-12-04T09:51:12Z",
+        "updatedOn": "2026-04-20T06:55:36Z",
+        "closedOn": null,
+        "attachments": [
+            {
+                "id": 46969,
+                "filename": "clipboard-202512041047-kfxkl.png",
+                "filesize": 134804,
+                "contentType": "image/png",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/46969/clipboard-202512041047-kfxkl.png",
+                "thumbnailUrl": "https://pm.hausheld.info/attachments/thumbnail/46969",
+                "author": {
+                    "id": 54,
+                    "name": "Nico Themanns"
+                },
+                "createdOn": "2025-12-04T09:47:32Z"
+            }
+        ],
+        "journals": null,
+        "relations": []
+    },
+    {
+        "id": 28599,
+        "project": {
+            "id": 374,
+            "name": "WMT-App",
+            "identifier": null,
+            "description": null,
+            "createdAt": null,
+            "updatedAt": null,
+            "tickets": null
+        },
+        "tracker": {
+            "id": 10,
+            "name": "Task"
+        },
+        "status": {
+            "id": 19,
+            "name": "In Review",
+            "isClosed": false
+        },
+        "priority": {
+            "id": 2,
+            "name": "Normal"
+        },
+        "author": {
+            "id": 177,
+            "name": "Tim Wiedemann"
+        },
+        "assignedTo": {
+            "id": 388,
+            "name": "Nils Milewski"
+        },
+        "subject": "Requests mit \"aborted\"-Flag erneut senden",
+        "description": "h3. IST Zustand\r\n\r\nWenn ein Request vom WMT Backend dreimal mit dem HTTP Status 500 beantwortet wird, wird dieser Request mit einem aborted flag versehen. Dadurch wird dieser und alle nachfolgenden Requests dieses Auftrags nicht mehr ans WMT Backend übertragen.\r\n\r\nh3. SOLL Zustand\r\n\r\nEs soll möglich sein, dass Requests die mit einem aborted flag versehen sind, wieder freigegeben werden, wenn das über das Backend initiiert wurde. Das bedeutet konkret, dass der Flag entfernt und der Status-500 Counter auf 0 zurückgesetzt werden muss. Der \"Reset\" wird auf Job Basis getriggert.\r\n\r\nh3. Implementierung\r\n\r\nDie App ermittelt durch eine regelmäßige Abfrage ans WMT alle Job-IDs, für die eine erneute Synchronisierung stattfinden soll. Dieses Polling erfolgt immer dann, bevor die App die Request-Queue abarbeitet. Für den Fall, dass dieses Polling fehlschlägt, macht die App mit den Requests weiter wie zuvor auch, damit es nicht zu fehlerhaften Blockaden von validen Requests kommt. War das Polling der Job-IDs erfolgreich, iteriert der Queue-Service über all diese IDs und prüft, ob es noch Requests auf dem Gerät gibt, die zu diesem Auftrag gehören. Gibt es noch Requests zu dieser Job-ID, wird geprüft, ob es einen Request mit dem aborted flag gibt. Wenn dies auch der Fall ist, wird der Flag entfernt, und der tries-Counter auf 0 zurückgesetzt, wodurch dieser Request beim nächsten Durchlauf der Request-Queue erneut versendet wird. Zusätzlich wird ein weiterer Request für den Auftrag erzeugt, der mit der Reihenfolge-ID 9999 ganz hinten eingeordnet wird. Dieser ist notwendig, damit das Backend weiß, wann der Resync durch das Handy erfolgreich und vollständig war.\r\nIst gar kein Request für diesen Auftrag mehr auf dem Handy vorhanden, wird nur dieser Antwort-Request erzeugt, damit das Backend diesen trotzdem abschließen kann, aber es wird der finished_status <code>no_data</code> genutzt, damit dies im Backend getracked werden kann.\r\n\r\nh3. Zu nutzende Schnittstellen\r\n\r\n* @GET service/job/jobIdsForResync/<mechanic-id>@ - Abfrage der JobIDs, für die ein Resync drchgeführt werden soll.\r\n* @POST service/job/finishResync/<resync-id>/<resync-finish-status-id>@ - Antwort nach abgeschlossenem Resync, damit Backend den Resync beenden kann (leerer Body).\r\n\r\n**Example Response 200 für @service/job/jobIdsForResync/<mechanic-id>@:**\r\n<pre><code class=\"json\">\r\n{\r\n    \"resyncs\": [\r\n        { \"resyncId\": 2, \"jobId\": 26945 },\r\n        { \"resyncId\": 3, \"jobId\": 26946 },\r\n        { \"resyncId\": 10, \"jobId\": 36034 }\r\n    ]\r\n}\r\n</code></pre>\r\n\r\n**Schema:**\r\n\r\n<pre><code class=\"json\">\r\n{\r\n  \"$schema\": \"http://json-schema.org/draft-04/schema#\",\r\n  \"type\": \"object\",\r\n  \"properties\": {\r\n    \"resyncs\": {\r\n      \"type\": \"array\",\r\n      \"items\": {\r\n        \"type\": \"object\",\r\n        \"properties\": {\r\n          \"resyncId\": {\r\n            \"type\": \"integer\" \r\n          },\r\n          \"jobId\": {\r\n            \"type\": \"integer\" \r\n          }\r\n        },\r\n        \"required\": [\r\n          \"resyncId\",\r\n          \"jobId\" \r\n        ]\r\n      }\r\n    }\r\n  },\r\n  \"required\": [\r\n    \"resyncs\" \r\n  ]\r\n}\r\n</code></pre>\r\n\r\nh3. Akzeptanzkriterien\r\n\r\n* Polling der Job-IDs vor jedem Durchlauf der Request-Queue\r\n* aborted-Flag und tries-Counter zurücksetzen, wenn aborted-Request für Job-ID vorhanden ist\r\n* Bei nächstem Durchlauf der Queue zurückgesetzten Request erneut in die Queue einbeziehen\r\n* Wenn Polling der Job-IDs für einen erneuten Sync fehlschlägt, mit dem normalen Request Handling weitermachen (Abarbeitung der Request-Queue)\r\n* Wenn keine Requests für Job-ID vorhanden ist, wird Resync-Antwort mit status <code>no_data</code> gesendet\r\n* Wenn alle Requests für einen Resync-Job-markierten Auftrag übermittelt wurden, schickt die App noch einen weiteren Request, der den Resync-Status mitteilt\r\n* Restliches Request-Handling bleibt unverändert",
+        "startDate": "2025-11-17",
+        "dueDate": null,
+        "doneRatio": 90,
+        "isPrivate": false,
+        "estimatedHours": 2,
+        "spentHours": 20.000000476837158,
+        "totalSpentHours": 20.000000476837158,
+        "createdOn": "2025-11-17T08:57:57Z",
+        "updatedOn": "2026-08-04T11:19:23Z",
+        "closedOn": "2026-01-06T10:00:01Z",
+        "attachments": [],
+        "journals": null,
+        "relations": []
+    },
+    {
+        "id": 26446,
+        "project": {
+            "id": 375,
+            "name": "WMT-Hintergrundsystem",
+            "identifier": null,
+            "description": null,
+            "createdAt": null,
+            "updatedAt": null,
+            "tickets": null
+        },
+        "tracker": {
+            "id": 10,
+            "name": "Task"
+        },
+        "status": {
+            "id": 19,
+            "name": "In Review",
+            "isClosed": false
+        },
+        "priority": {
+            "id": 2,
+            "name": "Normal"
+        },
+        "author": {
+            "id": 175,
+            "name": "Marco Anetzberger"
+        },
+        "assignedTo": {
+            "id": 388,
+            "name": "Nils Milewski"
+        },
+        "subject": "Geodatenermittlung über HH-Geoserver implementieren",
+        "description": "h2. IST\r\n\r\nIm WMT ist die Geodatenermittlung für TomTom, OpenStreetmap sowie Google implementiert (<code>common_geolocation/src/main/java/info/hausheld/common/geolocation/*</code>)\r\nAktiv genutzt werden OpenStreetmap und TomTom wobei OpenStreetmap priorisiert verwendet wird.\r\n\r\nAls neues System steht im internen Netzwerk (EXTERN1) der HH-Geoserver zur Verfügung.\r\nDieser kann vom WMT noch nicht genutzt werden.\r\n\r\nh2. SOLL\r\n\r\nDas WMT soll eine Geodatenermittlung über den HH-Geoserver implementieren, API-Dokumentation ist im \"Librarian\" verfügbar / ist angehängt.\r\n\r\nDiese soll sofort auch produktiv und bevorzugt benutzt werden.\r\nNur bei Fehlschlag einer Geodatenermittlung über den HH-Geoserver sollen die bisherigen Dienste in der ursprünglichen Reihenfolge genutzt werden.\r\n\r\nh3. Akzeptanzkriterien\r\n\r\n* WMT nutzt zur Geodatenermittlung bevorzugt den HH-Geoserver\r\n* Liefert der HH-Geoserver zu einer Anfrage keine Geodaten oder ist der Dienst nicht verfügbar, so werden die vorher schon verwendeten Dienste genutzt",
+        "startDate": "2025-09-10",
+        "dueDate": "2026-06-24",
+        "doneRatio": 0,
+        "isPrivate": false,
+        "estimatedHours": 12,
+        "spentHours": 45.49999976158142,
+        "totalSpentHours": 45.49999976158142,
+        "createdOn": "2025-09-10T11:32:56Z",
+        "updatedOn": "2026-08-03T08:22:38Z",
+        "closedOn": null,
+        "attachments": [
+            {
+                "id": 42779,
+                "filename": "bsimeter_interface_geoserver v2.pdf",
+                "filesize": 42748,
+                "contentType": "application/pdf",
+                "description": "HH-Geoserver API Dokumentation",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/42779/bsimeter_interface_geoserver%20v2.pdf",
+                "thumbnailUrl": "https://pm.hausheld.info/attachments/thumbnail/42779",
+                "author": {
+                    "id": 175,
+                    "name": "Marco Anetzberger"
+                },
+                "createdOn": "2025-09-10T11:32:47Z"
+            },
+            {
+                "id": 45084,
+                "filename": "Auswertung_itest_Geoserver.xlsx",
+                "filesize": 10855,
+                "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/45084/Auswertung_itest_Geoserver.xlsx",
+                "thumbnailUrl": null,
+                "author": {
+                    "id": 44,
+                    "name": "David Roch"
+                },
+                "createdOn": "2025-10-29T16:01:09Z"
+            }
+        ],
+        "journals": null,
+        "relations": [
+            {
+                "id": 4309,
+                "issueId": 24997,
+                "issueToId": 26446,
+                "relationType": "relates",
+                "delay": null
+            },
+            {
+                "id": 4328,
+                "issueId": 21162,
+                "issueToId": 26446,
+                "relationType": "relates",
+                "delay": null
+            },
+            {
+                "id": 5547,
+                "issueId": 26446,
+                "issueToId": 32041,
+                "relationType": "relates",
+                "delay": null
+            }
+        ]
+    },
+    {
+        "id": 23261,
+        "project": {
+            "id": 614,
+            "name": "Hausheld ERP-Tool",
+            "identifier": null,
+            "description": null,
+            "createdAt": null,
+            "updatedAt": null,
+            "tickets": null
+        },
+        "tracker": {
+            "id": 10,
+            "name": "Task"
+        },
+        "status": {
+            "id": 2,
+            "name": "In Progress",
+            "isClosed": false
+        },
+        "priority": {
+            "id": 2,
+            "name": "Normal"
+        },
+        "author": {
+            "id": 175,
+            "name": "Marco Anetzberger"
+        },
+        "assignedTo": {
+            "id": 388,
+            "name": "Nils Milewski"
+        },
+        "subject": "Erweiterung eLS-Creator: eBS-Erstellung (elektronischer Bestellschein)",
+        "description": "h2. IST-Zustand\r\n\r\nDie aktuelle Funktion der eBS-Erstellung in Xentral (Custom Code) funktioniert nicht für die aktuellen Anforderungen an eine SMGW-Bestellung bei Theben (siehe #23235).\r\nEine Anpassung des Custom Codes wird nicht in Betracht bezogen, da ein Projekt zur generellen Entfernung des Custom Codes gerade gestartet ist (#23136).\r\n\r\nEs muss eine Möglichkeit geschaffen werden, anforderungskonforme elektronische Bestellscheine zu generieren.\r\n\r\nh2. SOLL-Zustand\r\n\r\nFür die Zählerproduktion ist gerade das Tool \"eLS-Creator\" erstellt worden (#22561).\r\nDa der elektronische Bestellschein eine Nutzungsvariante des eLS ist, soll dieses Tool um die benötigte Funktion erweitert werden.\r\n\r\nEin Konzept / Lastenheft (LH) dazu wurde erstellt, siehe Anlage.\r\nDieses ist zu prüfen und umzusetzen.\r\n\r\nDie Prüfung des Lastenhefts umfasst auch die Prüfung der Anforderung an des Ergebnis (eBS XML-Datei) gegen die Anforderungen des SMHW-Lieferanten Theben, siehe Anlage.\r\n\r\nAnmerkung:\r\nFalls die aktuelle Xentral-Implementierung unterstützend angeschaut werden soll;\r\ndie eBS-Erstellung ist dort in diesem Modul implementiert: http://git/wawision/xentral/-/blob/master/www/pages/bestellung_custom.php\r\nFunktion: CreateElektrischenBestellschein()\r\n\r\nh3. Initiale Checklist\r\n\r\n[x] Lastenheft prüfen, Fragen klären\r\n[x] Lastenheft (Anforderungen an eBS XML-Datei) gegen Anforderungen von Theben prüfen\r\n[x] Aufwandsschätzung / PFlichtenheft\r\n[x] Umsetzung\r\n[x] Restarbeiten\r\n[x] Handbuch für Anwender",
+        "startDate": "2025-03-27",
+        "dueDate": "2026-04-03",
+        "doneRatio": 0,
+        "isPrivate": false,
+        "estimatedHours": null,
+        "spentHours": 244.69999992847443,
+        "totalSpentHours": 244.69999992847443,
+        "createdOn": "2025-03-27T14:29:40Z",
+        "updatedOn": "2026-06-01T09:47:24Z",
+        "closedOn": null,
+        "attachments": [
+            {
+                "id": 37495,
+                "filename": "eBS-Erstellung_2.2.pdf",
+                "filesize": 503916,
+                "contentType": "application/pdf",
+                "description": "Umsetzungskonzept / Lastenheft",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/37495/eBS-Erstellung_2.2.pdf",
+                "thumbnailUrl": "https://pm.hausheld.info/attachments/thumbnail/37495",
+                "author": {
+                    "id": 175,
+                    "name": "Marco Anetzberger"
+                },
+                "createdOn": "2025-03-27T14:28:06Z"
+            },
+            {
+                "id": 37496,
+                "filename": "eBS-Anforderungen zu FNN Version 2.1_2025.pdf",
+                "filesize": 365039,
+                "contentType": "application/pdf",
+                "description": "Anforderungen Theben",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/37496/eBS-Anforderungen%20zu%20FNN%20Version%202.1_2025.pdf",
+                "thumbnailUrl": "https://pm.hausheld.info/attachments/thumbnail/37496",
+                "author": {
+                    "id": 175,
+                    "name": "Marco Anetzberger"
+                },
+                "createdOn": "2025-03-27T14:28:06Z"
+            },
+            {
+                "id": 54008,
+                "filename": "23235-203.png",
+                "filesize": 44622,
+                "contentType": "image/png",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/54008/23235-203.png",
+                "thumbnailUrl": "https://pm.hausheld.info/attachments/thumbnail/54008",
+                "author": {
+                    "id": 324,
+                    "name": "Sebastian Blunk"
+                },
+                "createdOn": "2026-03-31T08:11:42Z"
+            },
+            {
+                "id": 54009,
+                "filename": "23235-202.png",
+                "filesize": 64198,
+                "contentType": "image/png",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/54009/23235-202.png",
+                "thumbnailUrl": "https://pm.hausheld.info/attachments/thumbnail/54009",
+                "author": {
+                    "id": 324,
+                    "name": "Sebastian Blunk"
+                },
+                "createdOn": "2026-03-31T08:11:42Z"
+            },
+            {
+                "id": 54010,
+                "filename": "23235-201.png",
+                "filesize": 46402,
+                "contentType": "image/png",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/54010/23235-201.png",
+                "thumbnailUrl": "https://pm.hausheld.info/attachments/thumbnail/54010",
+                "author": {
+                    "id": 324,
+                    "name": "Sebastian Blunk"
+                },
+                "createdOn": "2026-03-31T08:11:42Z"
+            },
+            {
+                "id": 54011,
+                "filename": "23235-200.png",
+                "filesize": 35061,
+                "contentType": "image/png",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/54011/23235-200.png",
+                "thumbnailUrl": "https://pm.hausheld.info/attachments/thumbnail/54011",
+                "author": {
+                    "id": 324,
+                    "name": "Sebastian Blunk"
+                },
+                "createdOn": "2026-03-31T08:11:42Z"
+            },
+            {
+                "id": 54012,
+                "filename": "23235-204.png",
+                "filesize": 76187,
+                "contentType": "image/png",
+                "description": "",
+                "contentUrl": "https://pm.hausheld.info/attachments/download/54012/23235-204.png",
+                "thumbnailUrl": "https://pm.hausheld.info/attachments/thumbnail/54012",
+                "author": {
+                    "id": 324,
+                    "name": "Sebastian Blunk"
+                },
+                "createdOn": "2026-03-31T08:11:42Z"
+            }
+        ],
+        "journals": null,
+        "relations": [
+            {
+                "id": 3674,
+                "issueId": 23235,
+                "issueToId": 23261,
+                "relationType": "relates",
+                "delay": null
+            },
+            {
+                "id": 3675,
+                "issueId": 23136,
+                "issueToId": 23261,
+                "relationType": "relates",
+                "delay": null
+            },
+            {
+                "id": 3676,
+                "issueId": 22561,
+                "issueToId": 23261,
+                "relationType": "relates",
+                "delay": null
+            },
+            {
+                "id": 3692,
+                "issueId": 23261,
+                "issueToId": 23299,
+                "relationType": "relates",
+                "delay": null
+            }
+        ]
+    }
+]

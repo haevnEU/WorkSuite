@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>404 - Resource Not Found</title>
+        <style>
+            * { box-sizing: border-box; }
+            body {
+                font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+                background-color: #020617; /* slate-950 */
+                color: #f8fafc;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+                margin: 0;
+                padding: 1rem;
+            }
+
+            .card {
+                background-color: #0f172a; /* slate-900 */
+                border: 1px solid #1e293b; /* slate-800 */
+                border-radius: 1rem;
+                padding: 2rem md:3rem;
+                max-width: 56rem; /* max-w-4xl */
+                width: 100%;
+                box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                position: relative;
+                overflow: hidden;
+            }
+
+            /* Ambient Background Glows */
+            .glow-amber {
+                position: absolute;
+                top: -5rem;
+                left: -5rem;
+                width: 16rem;
+                height: 16rem;
+                background-color: rgba(245, 158, 11, 0.05);
+                border-radius: 9999px;
+                filter: blur(48px);
+                pointer-events: none;
+            }
+            .glow-blue {
+                position: absolute;
+                bottom: -5rem;
+                right: -5rem;
+                width: 16rem;
+                height: 16rem;
+                background-color: rgba(59, 130, 246, 0.05);
+                border-radius: 9999px;
+                filter: blur(48px);
+                pointer-events: none;
+            }
+
+            /* Status Badge */
+            .badge {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.5rem;
+                padding: 0.25rem 0.75rem;
+                border-radius: 9999px;
+                background-color: rgba(69, 26, 3, 0.8); /* amber-950/80 */
+                border: 1px solid rgba(146, 64, 14, 0.8); /* amber-800/80 */
+                color: #fcd34d; /* amber-300 */
+                font-size: 0.75rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                margin-bottom: 1.5rem;
+            }
+
+            /* 404 Icon Container */
+            .icon-box {
+                padding: 1.25rem;
+                background-color: rgba(2, 6, 23, 0.8); /* slate-950/80 */
+                border: 1px solid #1e293b;
+                border-radius: 1.5rem;
+                color: #f59e0b; /* amber-500 */
+                margin-bottom: 1.5rem;
+                box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+            }
+
+            /* Content */
+            h2 {
+                font-size: 1.25rem;
+                font-weight: 700;
+                color: #ffffff;
+                margin: 0 0 0.5rem 0;
+                letter-spacing: -0.025em;
+            }
+            @media (min-width: 768px) { h2 { font-size: 1.5rem; } }
+
+            p.description {
+                color: #94a3b8; /* slate-400 */
+                font-size: 0.875rem;
+                line-height: 1.5;
+                margin: 0;
+                max-width: 28rem;
+            }
+
+            /* Actions & Buttons */
+            .actions-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5rem;
+                margin-top: 2rem;
+                margin-bottom: 2.5rem;
+            }
+
+            .btn-primary {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.5rem;
+                background-color: #2563eb; /* blue-600 */
+                color: #ffffff;
+                font-weight: 700;
+                font-size: 0.75rem;
+                padding: 0.75rem 1.5rem;
+                border-radius: 0.75rem;
+                border: none;
+                text-decoration: none;
+                cursor: pointer;
+                transition: all 0.2s;
+                box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.2);
+            }
+            .btn-primary:hover { background-color: #3b82f6; }
+            .btn-primary:active { background-color: #1d4ed8; }
+
+            /* Meta / Correlation ID Box */
+            .meta-box {
+                width: 100%;
+                max-width: 32rem; /* max-w-lg */
+                background-color: rgba(2, 6, 23, 0.6);
+                border: 1px solid rgba(30, 41, 59, 0.8);
+                border-radius: 0.75rem;
+                padding: 1.25rem;
+                text-align: left;
+                margin-bottom: 1.5rem;
+            }
+
+            .meta-header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid rgba(30, 41, 59, 0.8);
+                padding-bottom: 0.5rem;
+                margin-bottom: 0.75rem;
+            }
+
+            .meta-title {
+                font-size: 0.6875rem;
+                font-weight: 700;
+                color: #94a3b8;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+            }
+
+            .btn-copy {
+                background: transparent;
+                border: 1px solid #334155;
+                color: #94a3b8;
+                font-size: 0.6875rem;
+                padding: 0.2rem 0.5rem;
+                border-radius: 0.375rem;
+                cursor: pointer;
+                transition: all 0.2s;
+            }
+            .btn-copy:hover { background-color: #1e293b; color: #ffffff; }
+
+            .correlation-value {
+                font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+                font-size: 0.75rem;
+                color: #60a5fa; /* blue-400 */
+                word-break: break-all;
+            }
+
+            /* Troubleshooting / Notice Box */
+            .troubleshooting-box {
+                width: 100%;
+                max-width: 32rem;
+                background-color: rgba(2, 6, 23, 0.6);
+                border: 1px solid rgba(30, 41, 59, 0.8);
+                border-radius: 0.75rem;
+                padding: 1.25rem;
+                text-align: left;
+            }
+
+            .troubleshooting-title {
+                font-size: 0.6875rem;
+                font-weight: 700;
+                color: #94a3b8;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                display: block;
+                border-bottom: 1px solid rgba(30, 41, 59, 0.8);
+                padding-bottom: 0.5rem;
+                margin-bottom: 0.625rem;
+            }
+
+            ul.troubleshooting-list {
+                margin: 0;
+                padding-left: 1.25rem;
+                color: #94a3b8;
+                font-size: 0.75rem;
+            }
+            ul.troubleshooting-list li { margin-bottom: 0.375rem; }
+            ul.troubleshooting-list li:last-child { margin-bottom: 0; }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <div class="glow-amber"></div>
+            <div class="glow-blue"></div>
+            <br>
+
+            <!-- Status Badge -->
+            <div class="badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+                <span>404 - Not Found</span>
+            </div>
+
+            <!-- Icon Box -->
+            <div class="icon-box">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" x2="12" y1="9" y2="13"/><line x1="12" x2="12.01" y1="17" y2="17"/></svg>
+            </div>
+
+            <!-- Title & Description -->
+            <h2>Resource Not Found</h2>
+            <p class="description">The requested backend endpoint or page could not be located on this server.</p>
+
+            <!-- Actions -->
+            <div class="actions-container">
+                <a href="/" class="btn-primary">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" x2="5" y1="12" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+                    <span>Back to Application</span>
+                </a>
+            </div>
+
+            <!-- Meta Box (Correlation ID) -->
+            <div class="meta-box">
+                <div class="meta-header">
+                    <span class="meta-title">Correlation ID (for Support)</span>
+                    <button class="btn-copy" onclick="copyCorrelationId()" id="copy-btn">Copy ID</button>
+                </div>
+                <div class="correlation-value" id="correlation-id">Loading...</div>
+            </div>
+
+            <!-- Troubleshooting Steps -->
+            <div class="troubleshooting-box">
+                <span class="troubleshooting-title">Troubleshooting Steps</span>
+                <ul class="troubleshooting-list">
+                    <li>Check if the URL or API route was entered correctly.</li>
+                    <li>If this error persists on a valid page, contact support with the Correlation ID above.</li>
+                </ul>
+            </div>
+            <br>
+
+        </div>
+
+        <script>
+            async function loadCorrelationId() {
+                const element = document.getElementById('correlation-id');
+                try {
+                    const response = await fetch(window.location.href, { method: 'HEAD' });
+                    const cid = response.headers.get('X-Correlation-ID');
+                    if (cid) {
+                        element.innerText = cid;
+                        return;
+                    }
+                } catch (e) {}
+                element.innerText = "N/A (check server logs)";
+            }
+
+            function copyCorrelationId() {
+                const cid = document.getElementById('correlation-id').innerText;
+                if (cid && cid !== "Loading..." && cid !== "N/A (check server logs)") {
+                    navigator.clipboard.writeText(cid);
+                    const btn = document.getElementById('copy-btn');
+                    btn.innerText = "Copied!";
+                    setTimeout(() => btn.innerText = "Copy ID", 2000);
+                }
+            }
+
+            loadCorrelationId();
+        </script>
+    </body>
+</html>
