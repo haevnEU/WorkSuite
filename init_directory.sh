@@ -31,8 +31,8 @@ HIBERNATE_DDL_AUTO=update
 
 APP_REDMINE_URL=http://redmine:3000
 APP_REDMINE_APIKEY=
-APP_GITLAB_URL=
-APP_GITLAB_API_KEY=
+APP_VCS_URL=
+APP_VCS_API_KEY=
 JWT_SECRET=dev_jwt_secret_change_me_in_prod
 
 GRADLE_USER_HOME=/app/.gradle
