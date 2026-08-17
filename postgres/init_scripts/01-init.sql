@@ -120,3 +120,18 @@ CREATE TABLE public.day_summary_tasks
 );
 
 ALTER TABLE public.day_summary_tasks OWNER TO worksuite_user;
+
+CREATE TABLE public.route_usage_metrics
+(
+    id                UUID                        NOT NULL PRIMARY KEY DEFAULT gen_random_uuid(),
+    controller_class  VARCHAR(255)                NOT NULL,
+    controller_method VARCHAR(255)                NOT NULL,
+    http_method       VARCHAR(10)                 NOT NULL,
+    pattern           VARCHAR(255)                NOT NULL,
+    invocation_count  BIGINT                      NOT NULL DEFAULT 0,
+    first_seen_at     TIMESTAMP(6) WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    last_invoked_at   TIMESTAMP(6) WITH TIME ZONE,
+    CONSTRAINT uq_route_usage_method_pattern UNIQUE (http_method, pattern)
+);
+
+ALTER TABLE public.route_usage_metrics OWNER TO worksuite_user;

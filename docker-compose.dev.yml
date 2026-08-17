@@ -9,6 +9,7 @@ services:
       - ./env/dev/auth-backend.dev.env
     ports:
       - "5006:5005"
+      - "8081:8080"
     environment:
       - GRADLE_USER_HOME=/app/.gradle
       - SPRING_DEVTOOLS_RESTART_ENABLED=true
@@ -36,6 +37,7 @@ services:
       - ./env/dev/backend.dev.env
     ports:
       - "5005:5005"
+      - "8080:8080"
     environment:
       - GRADLE_USER_HOME=/app/.gradle
       - SPRING_DEVTOOLS_RESTART_ENABLED=true
