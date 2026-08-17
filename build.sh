@@ -56,11 +56,11 @@ while true; do
             if [ -n "$SERVICE" ]; then
                 docker compose -f docker-compose.dev.yml build "$SERVICE"
                 echo -e "${YELLOW}Running up...${NC}"
-                docker compose -f docker-compose.dev.yml up "$SERVICE"
+                docker compose -f docker-compose.dev.yml up "$SERVICE" -d
             else
                 docker compose -f docker-compose.dev.yml build
                 echo -e "${YELLOW}Running up...${NC}"
-                docker compose -f docker-compose.dev.yml up
+                docker compose -f docker-compose.dev.yml up -d
             fi
             ;;
         2)
@@ -68,19 +68,19 @@ while true; do
             if [ -n "$SERVICE" ]; then
                 docker compose -f docker-compose.dev.yml build --no-cache "$SERVICE"
                 echo -e "${YELLOW}Running up...${NC}"
-                docker compose -f docker-compose.dev.yml up "$SERVICE"
+                docker compose -f docker-compose.dev.yml up "$SERVICE" -d
             else
                 docker compose -f docker-compose.dev.yml build --no-cache
                 echo -e "${YELLOW}Running up...${NC}"
-                docker compose -f docker-compose.dev.yml up
+                docker compose -f docker-compose.dev.yml up up -d
             fi
             ;;
         3)
             echo -e "${YELLOW}Running up...${NC}"
             if [ -n "$SERVICE" ]; then
-                docker compose -f docker-compose.dev.yml up "$SERVICE"
+                docker compose -f docker-compose.dev.yml up "$SERVICE" -d
             else
-                docker compose -f docker-compose.dev.yml up
+                docker compose -f docker-compose.dev.yml up up -d
             fi
             ;;
         4)
