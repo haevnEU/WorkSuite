@@ -82,6 +82,7 @@ CREATE TABLE public.users
     redmine_key        VARCHAR(255),
     role               VARCHAR(255),
     vcs_key            VARCHAR(255),
+    vcs_provider       VARCHAR(255) DEFAULT 'GITLAB',
     username           TEXT,
     password_hash      TEXT
 );
