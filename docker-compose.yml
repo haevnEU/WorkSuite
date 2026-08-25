@@ -8,7 +8,7 @@ services:
       - ./env/prod/frontend.prod.env
     container_name: work_suite_reverse_proxy
     ports:
-      - "80:80"
+      - "81:80"
     depends_on:
       auth-backend:
         condition: service_started

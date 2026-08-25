@@ -29,6 +29,7 @@ SPRING_MONGODB_URI=mongodb://worksuite_user:worksuite_password@mongodb:27017/wor
 SHOW_SQL=true
 HIBERNATE_DDL_AUTO=update
 
+APP_VCS_REPOS_WATCHED=625;272;250;400
 APP_REDMINE_URL=http://redmine:3000
 APP_VCS_URL=http://192.168.2.137:81
 JWT_SECRET=4b7f921c8d6e3a5b4f0e1d2c3b4a5f6e7d8c9b0a1f2e3d4c5b6a7f8e9d0c1b2a
@@ -80,6 +81,7 @@ SPRING_MONGODB_URI=mongodb://worksuite_user:<MONGO_INITDB_ROOT_PASSWORD>@mongodb
 SHOW_SQL=false
 HIBERNATE_DDL_AUTO=validate
 
+APP_VCS_REPOS_WATCHED=<Semi-colon separated list of repository IDs to watch>
 APP_REDMINE_URL=
 APP_GITLAB_URL=
 JWT_SECRET=<JWT_SECRET>

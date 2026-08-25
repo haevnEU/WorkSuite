@@ -76,7 +76,7 @@ services:
       dockerfile: Dockerfile.dev
     container_name: work_suite_reverse_proxy_dev
     ports:
-      - "80:80"
+      - "81:80"
     depends_on:
       - frontend
       - backend
@@ -116,15 +116,15 @@ services:
       retries: 5
     restart: unless-stopped
 
-  redmine:
-    image: redmine:5-alpine
-    container_name: redmine_app
-    ports:
-      - "81:3000"
-    volumes:
-      - redmine_data:/usr/src/redmine/files
-      - redmine_sqlite:/usr/src/redmine/sqlite
-    restart: unless-stopped
+#  redmine:
+#    image: redmine:5-alpine
+#    container_name: redmine_app
+#    ports:
+#      - "81:3000"
+#    volumes:
+#      - redmine_data:/usr/src/redmine/files
+#      - redmine_sqlite:/usr/src/redmine/sqlite
+#    restart: unless-stopped
 
 volumes:
   work_suite_data:
