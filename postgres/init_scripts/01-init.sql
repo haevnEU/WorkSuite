@@ -69,11 +69,9 @@ CREATE TABLE public.time_entries
     ticket_id   BIGINT
 );
 
-ALTER TABLE public.time_entries OWNER TO worksuite_user;
-
 CREATE TABLE public.users
 (
-    id                 UUID                        NOT NULL PRIMARY KEY,
+    id                 UUID  NOT NULL PRIMARY KEY,
     avatar_url         VARCHAR(255),
     created_at         TIMESTAMP(6) WITH TIME ZONE NOT NULL,
     first_name         VARCHAR(255),
@@ -84,7 +82,10 @@ CREATE TABLE public.users
     vcs_key            VARCHAR(255),
     vcs_provider       VARCHAR(255) DEFAULT 'GITLAB',
     username           TEXT,
-    password_hash      TEXT
+    password_hash      TEXT,
+    preferences         JSONB NOT NULL DEFAULT '{}'::JSONB;
+
+ALTER TABLE public.time_entries OWNER TO worksuite_user;
 );
 
 ALTER TABLE public.users OWNER TO worksuite_user;
